@@ -1,3 +1,39 @@
+
+/* primare color  */
+.p-color{
+    color: #FD6E0A;
+
+}
+
+.p-button{
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(250, 246, 239);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h3{
+    font-size:25px ;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none ;
+    color: #4e4e4d;
+}
+
+
 h1{
     font-size: 50px;
 }
