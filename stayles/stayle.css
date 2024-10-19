@@ -68,23 +68,40 @@ h1{
 .about{
     background-color: antiquewhite;
     padding: 150px;
-    margin: 100px;
+    margin: 100px 200px;
 }
 .about-scetion{
     max-width: 1140px;
-    max-height: 600px;
-    /* margin: 70px 200px; */
-    /* padding: 80px 200px; */
+    max-height: 550px;
     border: 1px solid ;
     text-align: center;
     background-color: aliceblue;
 }
 .about-title{
     font-size: x-large;
+    text-align: center;
 
 }
 .about-info{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* what i do section  */
+.what_i_do-section{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 100px 200px;
+}
+.crad-oparation{
+    display: flex;
+    gap: 1.2rem;
+
+}
+
+.crad{
+    height: 300px;
+    width: 100%;
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: aliceblue;
 }
