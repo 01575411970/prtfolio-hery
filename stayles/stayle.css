@@ -21,6 +21,11 @@
     margin-left: 10px;
     color: #FD6E0A;
 }
+
+header{
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -48,13 +53,38 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.images-div{
     background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 65%;   
 }
 
 h1{
     font-size: 50px;
+}
+
+
+/* about section */
+.about{
+    background-color: antiquewhite;
+    padding: 150px;
+    margin: 100px;
+}
+.about-scetion{
+    max-width: 1140px;
+    max-height: 600px;
+    /* margin: 70px 200px; */
+    /* padding: 80px 200px; */
+    border: 1px solid ;
+    text-align: center;
+    background-color: aliceblue;
+}
+.about-title{
+    font-size: x-large;
+
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
